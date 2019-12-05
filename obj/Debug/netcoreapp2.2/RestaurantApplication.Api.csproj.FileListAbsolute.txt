@@ -1,0 +1,15 @@
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\bin\Debug\netcoreapp2.2\RestaurantApplication.Api.deps.json
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\bin\Debug\netcoreapp2.2\RestaurantApplication.Api.runtimeconfig.json
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\bin\Debug\netcoreapp2.2\RestaurantApplication.Api.runtimeconfig.dev.json
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\bin\Debug\netcoreapp2.2\RestaurantApplication.Api.dll
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\obj\Debug\netcoreapp2.2\RestaurantApplication.Api.csprojAssemblyReference.cache
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\obj\Debug\netcoreapp2.2\RestaurantApplication.Api.csproj.CoreCompileInputs.cache
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\obj\Debug\netcoreapp2.2\RestaurantApplication.Api.RazorAssemblyInfo.cache
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\obj\Debug\netcoreapp2.2\RestaurantApplication.Api.RazorAssemblyInfo.cs
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\obj\Debug\netcoreapp2.2\RestaurantApplication.Api.AssemblyInfoInputs.cache
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\obj\Debug\netcoreapp2.2\RestaurantApplication.Api.AssemblyInfo.cs
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\obj\Debug\netcoreapp2.2\RestaurantApplication.Api.RazorTargetAssemblyInfo.cache
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\bin\Debug\netcoreapp2.2\appsettings.json
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\bin\Debug\netcoreapp2.2\RestaurantApplication.Api.pdb
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\obj\Debug\netcoreapp2.2\RestaurantApplication.Api.dll
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\obj\Debug\netcoreapp2.2\RestaurantApplication.Api.pdb
