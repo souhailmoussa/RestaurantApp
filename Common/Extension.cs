@@ -222,5 +222,6 @@ namespace RestaurantApplication.Api.Common
         {
             return await mongoService.GetCollection<T>(collectionName).Find(Builders<T>.Filter.Empty).ToListAsync();
         }
+
     }
 }
