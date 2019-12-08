@@ -23,5 +23,10 @@
         {
             public const string TablesCollection = "tables";
         }
+
+        public class Errors
+        {
+            public const string EmptyPayload = nameof(EmptyPayload);
+        }
     }
 }

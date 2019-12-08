@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RestaurantApplication.Api.Common;
 using RestaurantApplication.Api.Managers;
 using RestaurantApplication.Api.Models;
 
@@ -23,6 +24,18 @@ namespace RestaurantApplication.Api.Controllers
         public async Task<ActionResult<IEnumerable<Table>>> GetTables()
         {
             return Ok(await coreManager.GetTables());
+        }
+
+        [HttpGet("table/{id}")]
+        public async Task<ActionResult<Table>> GetTableById(string id)
+        {
+            return Ok(await coreManager.GetTableById(id));
+        }
+
+        [HttpPost("table")]
+        public async Task<ActionResult<SubmissionResponse>> SaveTable([FromBody] Table table, bool isUpdate)
+        {
+            return this.GetSubmissionResponse(await coreManager.SaveTable(table, isUpdate));
         }
     }
 }

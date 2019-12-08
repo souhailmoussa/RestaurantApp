@@ -9,7 +9,5 @@ namespace RestaurantApplication.Api.Models
     public class Table : ModelBase
     {
         public string TableNumber { get; set; }
-
-        public IEnumerable<Order> Orders { get; set; }
     }
 }

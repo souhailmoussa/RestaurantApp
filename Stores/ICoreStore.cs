@@ -9,5 +9,9 @@ namespace RestaurantApplication.Api.Stores
     public interface ICoreStore
     {
         Task<IEnumerable<Table>> GetTables();
+
+        Task<Table> GetTableById(string tableId);
+
+        Task<SubmissionResponse> SaveTable(Table table, bool isUpdate);
     }
 }

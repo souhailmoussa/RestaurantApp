@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using MongoDB.Driver;
 using Newtonsoft.Json.Converters;
 using RestaurantApplication.Api.Configuration;
+using RestaurantApplication.Api.Models;
 using RestaurantApplication.Api.Mongo;
 using Swashbuckle.AspNetCore.Swagger;
 using System;
@@ -222,6 +223,20 @@ namespace RestaurantApplication.Api.Common
         {
             return await mongoService.GetCollection<T>(collectionName).Find(Builders<T>.Filter.Empty).ToListAsync();
         }
+
+        public static ActionResult<SubmissionResponse> GetSubmissionResponse(this ControllerBase controller, SubmissionResponse result) =>
+            result.ToOption()
+                .Where(m => m.Success)
+                .Select(m => (ActionResult<SubmissionResponse>)controller.Ok(result))
+                .DefaultIfEmpty(controller.BadRequest(result))
+                .Single();
+
+        public static Option<T> ToOption<T>(this T element) => Option<T>.Of(element);
+
+        public static UpdateDefinition<TDocument> SetIfNotEmpty<TDocument, TField>(this UpdateDefinition<TDocument> update,
+            Expression<Func<TDocument, TField>> field, TField value) => value == null ? update : update.Set(field, value);
+
+        public static FilterDefinition<T> ToIdFilter<T>(this object value) => Builders<T>.Filter.Eq("_id", value);
 
     }
 }
