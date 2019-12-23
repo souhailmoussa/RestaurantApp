@@ -14,6 +14,7 @@ using Newtonsoft.Json.Converters;
 using RestaurantApplication.Api.Configuration;
 using RestaurantApplication.Api.Models;
 using RestaurantApplication.Api.Mongo;
+using RestaurantApplication.Library;
 using Swashbuckle.AspNetCore.Swagger;
 using System;
 using System.Collections.Generic;

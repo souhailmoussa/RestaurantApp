@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using RestaurantApplication.Api.Common;
 using RestaurantApplication.Api.Managers;
 using RestaurantApplication.Api.Models;
+using RestaurantApplication.Library;
 
 namespace RestaurantApplication.Api.Controllers
 {

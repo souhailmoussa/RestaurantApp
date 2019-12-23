@@ -5248,6 +5248,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "RestaurantApplication.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/RestaurantApplication.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestaurantApplication.Library.dll": {}
+        }
       }
     }
   },
@@ -14251,6 +14261,11 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "RestaurantApplication.Library/1.0.0": {
+      "type": "project",
+      "path": "../RestaurantApplication.Library/RestaurantApplication.Library.csproj",
+      "msbuildProject": "../RestaurantApplication.Library/RestaurantApplication.Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -14266,6 +14281,7 @@
       "MongoDB.Bson >= 2.9.3",
       "MongoDB.Driver >= 2.9.3",
       "Newtonsoft.Json >= 12.0.3",
+      "RestaurantApplication.Library >= 1.0.0",
       "Swashbuckle.AspNetCore.SwaggerGen >= 4.0.1",
       "Swashbuckle.AspNetCore.SwaggerUi >= 1.1.0"
     ]
@@ -14299,7 +14315,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\D\\Suhail\\Restaurant Application\\RestaurantApplication\\RestaurantApplication.Library\\RestaurantApplication.Library.csproj": {
+              "projectPath": "C:\\D\\Suhail\\Restaurant Application\\RestaurantApplication\\RestaurantApplication.Library\\RestaurantApplication.Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

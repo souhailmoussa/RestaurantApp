@@ -7,6 +7,7 @@ using RestaurantApplication.Api.Common;
 using RestaurantApplication.Api.Configuration;
 using RestaurantApplication.Api.Models;
 using RestaurantApplication.Api.Mongo;
+using RestaurantApplication.Library;
 
 namespace RestaurantApplication.Api.Stores
 {

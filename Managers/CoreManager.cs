@@ -1,6 +1,7 @@
 ﻿using RestaurantApplication.Api.Common;
 using RestaurantApplication.Api.Models;
 using RestaurantApplication.Api.Stores;
+using RestaurantApplication.Library;
 using System;
 using System.Collections.Generic;
 using System.Linq;
