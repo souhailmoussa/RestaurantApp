@@ -35,6 +35,7 @@
           "MongoDB.Bson": "2.9.3",
           "MongoDB.Driver": "2.9.3",
           "Newtonsoft.Json": "12.0.3",
+          "RestaurantApplication.Library": "1.0.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "4.0.1",
           "Swashbuckle.AspNetCore.SwaggerUI": "1.1.0"
         },
@@ -961,6 +962,14 @@
           "Microsoft.NETCore.Platforms": "2.2.0",
           "Microsoft.NETCore.Targets": "2.0.0",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "RestaurantApplication.Library/1.0.0": {
+        "runtime": {
+          "RestaurantApplication.Library.dll": {}
+        },
+        "compile": {
+          "RestaurantApplication.Library.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -4520,6 +4529,11 @@
       "sha512": "sha512-Z6YfyYTCg7lOZjJzBjONJTFKGN9/NIYKSxhU5GRd+DTwHSZyvWp1xuI5aR+dLg+ayyC5Xv57KiY4oJ0tMO89fQ==",
       "path": "system.threading.timer/4.3.0",
       "hashPath": "system.threading.timer.4.3.0.nupkg.sha512"
+    },
+    "RestaurantApplication.Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",

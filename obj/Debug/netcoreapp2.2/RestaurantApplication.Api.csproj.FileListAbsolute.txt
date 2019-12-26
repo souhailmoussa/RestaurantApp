@@ -13,3 +13,6 @@ C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.A
 C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\bin\Debug\netcoreapp2.2\RestaurantApplication.Api.pdb
 C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\obj\Debug\netcoreapp2.2\RestaurantApplication.Api.dll
 C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\obj\Debug\netcoreapp2.2\RestaurantApplication.Api.pdb
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\bin\Debug\netcoreapp2.2\RestaurantApplication.Library.dll
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\bin\Debug\netcoreapp2.2\RestaurantApplication.Library.pdb
+C:\D\Suhail\Restaurant Application\RestaurantApplication\RestaurantApplication.Api\obj\Debug\netcoreapp2.2\RestaurantApplication.Api.csproj.CopyComplete

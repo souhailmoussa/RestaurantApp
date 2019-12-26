@@ -34,9 +34,9 @@ namespace RestaurantApplication.Api.Controllers
         }
 
         [HttpPost("table")]
-        public async Task<ActionResult<SubmissionResponse>> SaveTable([FromBody] Table table, bool isUpdate)
+        public async Task<SubmissionResponse> SaveTable([FromBody] Table table, bool isUpdate)
         {
-            return this.GetSubmissionResponse(await coreManager.SaveTable(table, isUpdate));
+            return await coreManager.SaveTable(table, isUpdate);
         }
     }
 }
